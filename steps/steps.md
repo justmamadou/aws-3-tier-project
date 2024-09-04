@@ -4,12 +4,12 @@ Ce document fournit des instructions étape par étape pour créer les différen
 
 ## Table des Matières
 
-1. [Configuration du VPC](#création-du-vpc)
+1. [Configuration du VPC](#configuration-du-vpc)
 2. [Création des Launch Template](#création-du-launch-template)
 3. [Configuration des Security Groups](#configuration-des-security-groups)
 4. [Création de l'Auto Scaling Group (ASG)](#création-de-lauto-scaling-group-asg)
 5. [Application Load Balancer (ALB)](#mise-en-place-de-lapplication-load-balancer-alb)
-6. [Instances EC2](#création-des-instances-ec2)
+6. [Instances EC2](#instances-ec2)
 7. [Création de l'Instance RDS](#création-de-linstance-rds)
 8. [Connexion SSH depuis le Bastion Host](#connexion-ssh-depuis-le-bastion-host)
 9. [Test de Connectivité avec Ping](#test-de-connectivité-avec-ping)
