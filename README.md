@@ -1,5 +1,3 @@
-# aws-3-tier-project
-
 # AWS 3-Tier Architecture
 
 Ce projet décrit la mise en place d'une architecture 3 tiers sur AWS pour héberger une application web. Cette architecture est conçue pour fournir une haute disponibilité, une scalabilité et une sécurité renforcée.
