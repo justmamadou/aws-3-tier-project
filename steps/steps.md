@@ -20,7 +20,7 @@ Ce document fournit des instructions étape par étape pour créer les différen
 2. Cliquez sur **Create VPC** et configurez le CIDR Block, le nom, etc.
 3. Capture d'écran de la configuration du VPC :
 
-   ![Création du VPC](./images/vpc_creation.png)
+   ![Création du VPC](../images/vpc_creation.png)
 
 ## Création des Instances EC2
 
@@ -28,7 +28,7 @@ Ce document fournit des instructions étape par étape pour créer les différen
 2. Cliquez sur **Launch Instance** et suivez les étapes pour choisir l'AMI, le type d'instance, et configurez les options de réseau.
 3. Capture d'écran de la configuration des instances EC2 :
 
-   ![Création des Instances EC2](./images/ec2_creation.png)
+   ![Création des Instances EC2](../images/ec2_creation.png)
 
 ## Création du Launch Template
 
@@ -36,7 +36,7 @@ Ce document fournit des instructions étape par étape pour créer les différen
 2. Cliquez sur **Create Launch Template** et remplissez les détails requis.
 3. Capture d'écran de la création du Launch Template :
 
-   ![Création du Launch Template](./images/launch_template_creation.png)
+   ![Création du Launch Template](../images/launch_template_creation.png)
 
 ## Configuration des Security Groups
 
@@ -44,7 +44,7 @@ Ce document fournit des instructions étape par étape pour créer les différen
 2. Créez des Security Groups pour les différentes couches de l'architecture (Web, App, Database).
 3. Capture d'écran de la configuration des Security Groups :
 
-   ![Configuration des Security Groups](./images/security_groups_configuration.png)
+   ![Configuration des Security Groups](../images/security_groups_configuration.png)
 
 ## Mise en place de l'Application Load Balancer (ALB)
 
@@ -52,7 +52,7 @@ Ce document fournit des instructions étape par étape pour créer les différen
 2. Cliquez sur **Create Load Balancer** et sélectionnez **Application Load Balancer**.
 3. Capture d'écran de la création de l'ALB :
 
-   ![Création de l'ALB](./images/alb_creation.png)
+   ![Création de l'ALB](../images/alb_creation.png)
 
 ## Création de l'Auto Scaling Group (ASG)
 
@@ -60,7 +60,7 @@ Ce document fournit des instructions étape par étape pour créer les différen
 2. Cliquez sur **Create Auto Scaling Group** et utilisez le Launch Template précédemment créé.
 3. Capture d'écran de la configuration de l'ASG :
 
-   ![Création de l'ASG](./images/asg_creation.png)
+   ![Création de l'ASG](../images/asg_creation.png)
 
 ## Création de l'Instance RDS
 
@@ -68,7 +68,7 @@ Ce document fournit des instructions étape par étape pour créer les différen
 2. Cliquez sur **Create Database** et suivez les étapes de configuration.
 3. Capture d'écran de la création de l'instance RDS :
 
-   ![Création de l'Instance RDS](./images/rds_creation.png)
+   ![Création de l'Instance RDS](../images/rds_creation.png)
 
 ## Connexion SSH depuis le Bastion Host
 
@@ -76,7 +76,7 @@ Ce document fournit des instructions étape par étape pour créer les différen
 2. Utilisez la connexion bastion pour accéder aux instances privées de l'App Tier.
 3. Capture d'écran de la connexion SSH depuis le Bastion Host :
 
-   ![Connexion SSH depuis le Bastion Host](./images/ssh_bastion_connection.png)
+   ![Connexion SSH depuis le Bastion Host](../images/ssh_bastion_connection.png)
 
 ## Test de Connectivité avec Ping
 
@@ -84,7 +84,7 @@ Ce document fournit des instructions étape par étape pour créer les différen
 2. Assurez-vous que les Security Groups permettent la communication entre les ressources.
 3. Capture d'écran du test de connectivité avec `ping` :
 
-   ![Test de Connectivité avec Ping](./images/ping_test.png)
+   ![Test de Connectivité avec Ping](../images/ping_test.png)
 
 ## Conclusion
 
