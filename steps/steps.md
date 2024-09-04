@@ -4,31 +4,23 @@ Ce document fournit des instructions étape par étape pour créer les différen
 
 ## Table des Matières
 
-1. [Création du VPC](#création-du-vpc)
-2. [Création des Instances EC2](#création-des-instances-ec2)
-3. [Création du Launch Template](#création-du-launch-template)
-4. [Configuration des Security Groups](#configuration-des-security-groups)
-5. [Mise en place de l'Application Load Balancer (ALB)](#mise-en-place-de-lapplication-load-balancer-alb)
-6. [Création de l'Auto Scaling Group (ASG)](#création-de-lauto-scaling-group-asg)
+1. [Configuration du VPC](#création-du-vpc)
+2. [Création des Launch Template](#création-du-launch-template)
+3. [Configuration des Security Groups](#configuration-des-security-groups)
+4. [Création de l'Auto Scaling Group (ASG)](#création-de-lauto-scaling-group-asg)
+5. [Application Load Balancer (ALB)](#mise-en-place-de-lapplication-load-balancer-alb)
+6. [Instances EC2](#création-des-instances-ec2)
 7. [Création de l'Instance RDS](#création-de-linstance-rds)
 8. [Connexion SSH depuis le Bastion Host](#connexion-ssh-depuis-le-bastion-host)
 9. [Test de Connectivité avec Ping](#test-de-connectivité-avec-ping)
 
-## Création du VPC
+## Configuration du VPC
 
 1. Allez dans le service **VPC** dans la console AWS.
 2. Cliquez sur **Create VPC** et configurez le CIDR Block, le nom, etc.
 3. Capture d'écran de la configuration du VPC :
 
    ![Création du VPC](../images/vpc_creation.png)
-
-## Création des Instances EC2
-
-1. Accédez au service **EC2**.
-2. Cliquez sur **Launch Instance** et suivez les étapes pour choisir l'AMI, le type d'instance, et configurez les options de réseau.
-3. Capture d'écran de la configuration des instances EC2 :
-
-   ![Création des Instances EC2](../images/ec2_creation.png)
 
 ## Création du Launch Template
 
@@ -46,13 +38,6 @@ Ce document fournit des instructions étape par étape pour créer les différen
 
    ![Configuration des Security Groups](../images/security_groups_configuration.png)
 
-## Mise en place de l'Application Load Balancer (ALB)
-
-1. Accédez à **Load Balancers** dans le service EC2.
-2. Cliquez sur **Create Load Balancer** et sélectionnez **Application Load Balancer**.
-3. Capture d'écran de la création de l'ALB :
-
-   ![Création de l'ALB](../images/alb_creation.png)
 
 ## Création de l'Auto Scaling Group (ASG)
 
@@ -61,6 +46,20 @@ Ce document fournit des instructions étape par étape pour créer les différen
 3. Capture d'écran de la configuration de l'ASG :
 
    ![Création de l'ASG](../images/asg_creation.png)
+
+## Mise en place de l'Application Load Balancer (ALB)
+
+1. Accédez à **Load Balancers** dans le service EC2.
+2. Capture d'écran de la création de l'ALB :
+
+   ![Création de l'ALB](../images/alb_creation.png)
+
+##  Instances EC2
+
+1. Accédez au service **EC2**.
+2. Capture d'écran de la configuration des instances EC2 :
+
+   ![Création des Instances EC2](../images/ec2_creation.png)
 
 ## Création de l'Instance RDS
 
