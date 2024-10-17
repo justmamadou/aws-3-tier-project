@@ -1,4 +1,4 @@
-variable "vpc_name" {
+/*variable "vpc_name" {
   description = "vpc name"
   default = "my-vpc"
   type = string
@@ -38,4 +38,4 @@ variable "enable_nat_gateway" {
   description = "enable nat gateway"
   type = bool
   default = true
-}
+}*/

@@ -1,4 +1,4 @@
-module "vpc" {
+/*module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
   name = var.vpc_name
@@ -18,4 +18,4 @@ module "vpc" {
     Terraform = "true"
     Environment = "dev"
   }
-}
+}*/

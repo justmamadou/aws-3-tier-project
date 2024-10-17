@@ -1,4 +1,4 @@
-module "db_security_group" {
+/*module "db_security_group" {
   source  = "terraform-aws-modules/security-group/aws"
   version = "~> 5.0"
 
@@ -46,4 +46,4 @@ module "app_security_group" {
     Terraform = "true"
     Environment = "dev"
   }
-}
+}*/

@@ -1,4 +1,4 @@
-module "db" {
+/*module "db" {
   source = "terraform-aws-modules/rds/aws"
 
   identifier = "demodb"
@@ -34,4 +34,4 @@ module "db" {
     Environment = "dev"
   }
   
-}
+}*/
